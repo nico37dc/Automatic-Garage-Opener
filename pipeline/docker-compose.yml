@@ -1,0 +1,7 @@
+services:
+  mqtt-broker:
+    image: hivemq/hivemq4:4.0.0
+    restart: always
+    ports:
+      - 1883:1883
+      - 8082:8080

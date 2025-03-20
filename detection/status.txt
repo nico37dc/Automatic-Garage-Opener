@@ -1,0 +1,3 @@
+- Modell trainiert (best)
+- Ergebnis so semi-zufriedenstellend
+-> Warten auf Antwort wegen erweitertem Datensatz

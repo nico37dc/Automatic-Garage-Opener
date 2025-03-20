@@ -1,0 +1,7 @@
+**/backup_pipeline/
+**/data/
+**/output_images/
+**/runs/
+**/__pycache__/
+**/venv/
+**/.venv/
