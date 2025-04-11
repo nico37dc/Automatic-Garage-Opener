@@ -1,0 +1,46 @@
+Change Component Designator: OldDesignator=D2A NewDesignator=D2C
+Change Component Designator: OldDesignator=D2C NewDesignator=D2A
+Change Component Designator: OldDesignator=D3A NewDesignator=D3C
+Change Component Designator: OldDesignator=D3C NewDesignator=D3A
+Change Component Designator: OldDesignator=J2A NewDesignator=J2C
+Change Component Designator: OldDesignator=J2C NewDesignator=J2A
+Change Component Designator: OldDesignator=K1A NewDesignator=K1C
+Change Component Designator: OldDesignator=K1C NewDesignator=K1A
+Change Component Designator: OldDesignator=Q1A NewDesignator=Q1C
+Change Component Designator: OldDesignator=Q1C NewDesignator=Q1A
+Change Component Designator: OldDesignator=Q2A NewDesignator=Q2C
+Change Component Designator: OldDesignator=Q2C NewDesignator=Q2A
+Change Component Designator: OldDesignator=R2A NewDesignator=R2C
+Change Component Designator: OldDesignator=R2C NewDesignator=R2A
+Change Component Designator: OldDesignator=R3A NewDesignator=R3C
+Change Component Designator: OldDesignator=R3C NewDesignator=R3A
+Added Component: Designator=PS2(1779205311)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/components/products/datasheet/1779205311.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "10.41mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1779205311"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ1_2 Pin=PS2-1
+Added Pin To Net: NetName=NetJ1_1 Pin=PS2-2
+Added Pin To Net: NetName=GND Pin=PS2-3
+Added Pin To Net: NetName=5V Pin=PS2-4
+Change Net Name : Old Net Name=NetD2A_2 New Net Name=NetD2C_2
+Change Net Name : Old Net Name=NetD2C_2 New Net Name=NetD2A_2
+Change Net Name : Old Net Name=NetD3A_2 New Net Name=NetD3C_2
+Change Net Name : Old Net Name=NetD3C_2 New Net Name=NetD3A_2
+Change Net Name : Old Net Name=NetJ2A_1 New Net Name=NetJ2C_1
+Change Net Name : Old Net Name=NetJ2A_2 New Net Name=NetJ2C_2
+Change Net Name : Old Net Name=NetJ2A_3 New Net Name=NetJ2C_3
+Change Net Name : Old Net Name=NetJ2C_1 New Net Name=NetJ2A_1
+Change Net Name : Old Net Name=NetJ2C_2 New Net Name=NetJ2A_2
+Change Net Name : Old Net Name=NetJ2C_3 New Net Name=NetJ2A_3
+Change Net Name : Old Net Name=NetQ1A_1 New Net Name=NetQ1C_1
+Change Net Name : Old Net Name=NetQ1A_3 New Net Name=NetQ1C_3
+Change Net Name : Old Net Name=NetQ1C_1 New Net Name=NetQ1A_1
+Change Net Name : Old Net Name=NetQ1C_3 New Net Name=NetQ1A_3
+Change Net Name : Old Net Name=NetQ2A_1 New Net Name=NetQ2C_1
+Change Net Name : Old Net Name=NetQ2C_1 New Net Name=NetQ2A_1
+Added Member To Class: ClassName=ESP32_garage_door Member=Component PS2 1779205311

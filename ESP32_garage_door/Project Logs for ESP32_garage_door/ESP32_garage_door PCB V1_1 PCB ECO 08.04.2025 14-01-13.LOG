@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=5V Pin=PS1-2
+Removed Pin From Net: NetName=GND Pin=PS1-3
+Removed Pin From Net: NetName=NetJ1_1 Pin=PS1-5
+Removed Member From Class: ClassName=ESP32_garage_door Member=PS1
+Added Pin To Net: NetName=24V Pin=J1-2
+Added Pin To Net: NetName=24V Pin=PS2-1
+Added Net: Name=24V
+Added Rule: Name=Schematic Supply Nets_3

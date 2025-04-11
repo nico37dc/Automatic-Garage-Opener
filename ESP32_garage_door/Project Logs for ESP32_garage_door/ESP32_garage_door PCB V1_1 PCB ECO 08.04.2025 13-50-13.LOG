@@ -1,0 +1,61 @@
+Removed Pin From Net: NetName=5V Pin=D1-2
+Removed Pin From Net: NetName=GND Pin=R1-2
+Removed Member From Class: ClassName=ESP32_garage_door Member=D1
+Removed Member From Class: ClassName=U_1_Channel_Opto_Relay3 Member=D2A
+Removed Member From Class: ClassName=U_1_Channel_Opto_Relay3 Member=D3A
+Removed Member From Class: ClassName=U_1_Channel_Opto_Relay1 Member=J2A
+Removed Member From Class: ClassName=U_1_Channel_Opto_Relay3 Member=J2A
+Removed Member From Class: ClassName=U_1_Channel_Opto_Relay2 Member=J2B
+Removed Member From Class: ClassName=U_1_Channel_Opto_Relay1 Member=K1C
+Removed Member From Class: ClassName=U_1_Channel_Opto_Relay3 Member=Q1A
+Removed Member From Class: ClassName=U_1_Channel_Opto_Relay3 Member=Q2A
+Removed Member From Class: ClassName=ESP32_garage_door Member=R1
+Removed Member From Class: ClassName=U_1_Channel_Opto_Relay3 Member=R2A
+Removed Member From Class: ClassName=U_1_Channel_Opto_Relay3 Member=R3A
+Added Component: Designator=J2(1548128)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://product-download.phoenixcontact.com/8064728?response-content-disposition=inline;%20filename%3D%22pxc_1548128_00_05_MKDSN-1-5-2-5-08-SPE_FAM.pdf%22&Expires=1710663383&Signature=dNE3xUpP8aZKNM7MbijW96iZv~1ZSU7z-jr1GpV8auc4knETZVFd79aWCcONAeV4hWLRa32"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "10.15mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1548128"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "651-1548128"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1548128?qs=ulEaXIWI0c87QOzP9yohxA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=J3(1548128)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://product-download.phoenixcontact.com/8064728?response-content-disposition=inline;%20filename%3D%22pxc_1548128_00_05_MKDSN-1-5-2-5-08-SPE_FAM.pdf%22&Expires=1710663383&Signature=dNE3xUpP8aZKNM7MbijW96iZv~1ZSU7z-jr1GpV8auc4knETZVFd79aWCcONAeV4hWLRa32"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "10.15mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1548128"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "651-1548128"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1548128?qs=ulEaXIWI0c87QOzP9yohxA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=K1A-COM
+Added Pin To Net: NetName=NetJ2_1 Pin=K1B-COM
+Added Pin To Net: NetName=NetJ2_1 Pin=K1C-COM
+Added Net: Name=NetJ2_1
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_2 Pin=K1C-NO
+Added Net: Name=NetJ2_2
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_1 Pin=K1B-NO
+Added Net: Name=NetJ3_1
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_2 Pin=K1A-NC
+Added Net: Name=NetJ3_2
+Added Pin To Net: NetName=NetK1A_NO Pin=K1A-NO
+Added Net: Name=NetK1A_NO
+Added Pin To Net: NetName=NetK1B_NC Pin=K1B-NC
+Added Net: Name=NetK1B_NC
+Added Pin To Net: NetName=NetK1C_NC Pin=K1C-NC
+Added Net: Name=NetK1C_NC
+Added Member To Class: ClassName=U_1_Channel_Opto_Relay3 Member=Component D2C (D2) 1N4148WT
+Added Member To Class: ClassName=U_1_Channel_Opto_Relay3 Member=Component D3C (D3) 150120YS75000
+Added Member To Class: ClassName=ESP32_garage_door Member=Component J2 1548128
+Added Member To Class: ClassName=ESP32_garage_door Member=Component J3 1548128
+Added Member To Class: ClassName=U_1_Channel_Opto_Relay1 Member=Component K1A (K1) SRD-05VDC-SL-C
+Added Member To Class: ClassName=U_1_Channel_Opto_Relay3 Member=Component Q1C (Q1) LTV-817C
+Added Member To Class: ClassName=U_1_Channel_Opto_Relay3 Member=Component Q2C (Q2) MMBTA42LT1G
+Added Member To Class: ClassName=U_1_Channel_Opto_Relay3 Member=Component R2C (R2) AC0603FR-071KL
+Added Member To Class: ClassName=U_1_Channel_Opto_Relay3 Member=Component R3C (R3) CRCW0603510RFKEA
