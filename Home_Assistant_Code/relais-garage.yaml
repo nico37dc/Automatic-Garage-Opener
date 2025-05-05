@@ -1,0 +1,63 @@
+switch:
+  - platform: gpio
+    pin: 
+      number: GPIO14
+      inverted: true
+    name: "Garage Door Open Switch"
+    id: open_switch
+  - platform: gpio
+    pin:
+      number: GPIO13
+      inverted: true
+    name: "Garage Door Close Switch"
+    id: close_switch
+
+cover:
+  - platform: template
+    name: "Garage Door"
+    device_class: garage
+    open_action:
+      - switch.turn_off: close_switch
+      - switch.turn_on: open_switch
+      - delay: 0.2s
+      - switch.turn_off: open_switch
+    close_action:
+      - switch.turn_off: open_switch
+      - switch.turn_on: close_switch
+      - delay: 0.2s
+      - switch.turn_off: close_switch
+    stop_action:
+      - switch.turn_off: close_switch
+      - switch.turn_off: open_switch
+    lambda: |-
+      if (id(garage_door_open).state) {
+        return COVER_OPEN;
+      } else {
+        return COVER_CLOSED;
+      }
+    optimistic: false
+
+sensor:
+  - platform: adc
+    pin: GPIO34
+    name: "Garage LDR Sensor"
+    id: garage_ldr
+    update_interval: 1s
+    attenuation: 11db
+    filters:
+      - median:
+          window_size: 7
+          send_every: 4
+          send_first_at: 1
+
+binary_sensor:
+  - platform: template
+    name: "Garage Tür Offen"
+    id: garage_door_open
+    lambda: |-
+      if (id(garage_ldr).state > 3.0) {
+        return false;
+      } else {
+        return true;
+      }
+    device_class: garage_door
